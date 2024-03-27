@@ -18,7 +18,7 @@ export default function Main() {
 
   return (
     <div className='container'>
-        <h1 className='title text-light'>Quiz Application</h1>
+        <h1 className='title text-light'>Quiz-Master</h1>
 
         <ol>
             <li>You will be asked 10 questions one after another.</li>
@@ -26,6 +26,7 @@ export default function Main() {
             <li>Each question has three options. You can choose only one options.</li>
             <li>You can review and change answers before the quiz finish.</li>
             <li>The result will be declared at the end of the quiz.</li>
+            <li>Press on Start Quiz button to start the quiz.</li>
         </ol>
 
         <form id="form">
